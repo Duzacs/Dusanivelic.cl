@@ -80,7 +80,7 @@ Maria buscaba una forma de promocionar su escuela, y conversando con otros exper
 **Referentes**
 
 
-danielkorpai.com 
+danielkorpai.com/
 El sitio web de Daniel Korpai incorpora varios GIFS y elementos gráficos sin que estos saturen al usuario, además de ser conciso y eficaz con su mensaje. Un aspecto negativo que tiene es que a veces es difícil darse cuenta de qué elementos son clickeables y cuáles no.
 
 https://zhenyary.com/
