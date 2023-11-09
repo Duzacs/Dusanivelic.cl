@@ -1,4 +1,5 @@
 *Objetivo general*
+
 Promocionar mi trabajo para así tener posibilidades de ser contratado o seleccionado por agencias o instituciones.
 
 
