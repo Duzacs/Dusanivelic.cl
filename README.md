@@ -1,9 +1,9 @@
-Objetivo general:
+*Objetivo general*
 Promocionar mi trabajo para así tener posibilidades de ser contratado o seleccionado por agencias o instituciones.
 
 
 
-Iván Rodríguez 
+*Iván Rodríguez*
 35 años
 Director de una empresa dedicada al desarrollo de aplicaciones web y móviles.
 
@@ -19,7 +19,7 @@ No tiene todo el conocimiento requerido para crear productos novedosos, ya que s
 Acceso al sitio web
 Iván siempre está en búsqueda de nuevos talentos o individuos que considera que podrían crear valor para su empresa. Buscando a través de redes sociales, se encuentra con un usuario que podría entrar en aquella categoría, por lo que decide entrar a su sitio web desde su perfil y analizar su portafolio.
 
-Camilo Ibáñez 
+*Camilo Ibáñez*
 42 años
 Dueño de un negocio de comida rápida
 
@@ -35,7 +35,7 @@ No siempre le atina a lo que el cliente le gusta, y por ello a veces los espanta
 Acceso al sitio web
 Camilo estaba buscando diseñadores que pudieran ayudarlo, y un amigo suyo le recomendó el dato de uno llamado Dusan Ivelic. Es por esto que se dispone a buscar el nombre en Google y se encuentra con un sitio web dedicado al trabajo de éste.
 
-María Prado
+*María Prado*
 45 años
 Directora de una escuela pública ubicada en Providencia.
 
@@ -53,7 +53,7 @@ Maria buscaba una forma de promocionar su escuela, y conversando con otros exper
 
 
 
-Referentes
+*Referentes*
 
 danielkorpai.com 
 El sitio web de Daniel Korpai incorpora varios GIFS y elementos gráficos sin que estos saturen al usuario, además de ser conciso y eficaz con su mensaje. Un aspecto negativo que tiene es que a veces es difícil darse cuenta de qué elementos son clickeables y cuáles no.
@@ -74,7 +74,9 @@ https://www.kysondana.com/
 De Kyson destaco mucho el diseño de interacción incorporado a su sitio, y la manera en que se presenta en la primera página. Un aspecto negativo que tiene es que la exploración de su sitio puede ser algo lenta o tediosa. 
 
 
-Moodboard
+*Moodboard*
+
+
 ![Moodboard](https://github.com/Duzacs/Dusanivelic.cl/assets/141802434/5c1b3a1d-4638-44ae-9a3e-4a4bccc95be8)
 
 
