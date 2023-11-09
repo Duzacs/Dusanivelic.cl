@@ -75,14 +75,7 @@ De Kyson destaco mucho el diseño de interacción incorporado a su sitio, y la m
 
 
 Moodboard
-
-
-
-
-
-
-
-
+![Moodboard](https://github.com/Duzacs/Dusanivelic.cl/assets/141802434/5c1b3a1d-4638-44ae-9a3e-4a4bccc95be8)
 
 
 # Dusanivelic.cl
