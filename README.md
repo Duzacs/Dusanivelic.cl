@@ -6,74 +6,17 @@ Promocionar mi trabajo para así tener posibilidades de ser contratado o selecci
 **Usuarios**
 
 
-**Iván Rodríguez**
+**Iván Rodríguez, usuario objetivo**
+![persona3](https://github.com/Duzacs/Dusanivelic.cl/assets/141802434/a9eadb52-134e-47f5-a792-31e6986f6d77)
 
 
-35 años
 
-Director de una empresa dedicada al desarrollo de aplicaciones web y móviles.
-
-Objetivo de vida
-
-Construir productos de calidad que innoven y creen valor para las personas.
-
-Motivaciones
-
-Convertirse en un referente en lo que desarrollos tecnológicos e innovación se refiere. Desea trascender y marcar su nombre en la historia.
-
-Frustraciones
-
-No tiene todo el conocimiento requerido para crear productos novedosos, ya que sus habilidades no cubren capacidades técnicas o de diseño. Le frustra tener ideas y no saber ejecutarlas.
-
-Acceso al sitio web
-
-Iván siempre está en búsqueda de nuevos talentos o individuos que considera que podrían crear valor para su empresa. Buscando a través de redes sociales, se encuentra con un usuario que podría entrar en aquella categoría, por lo que decide entrar a su sitio web desde su perfil y analizar su portafolio.
-
-**Camilo Ibáñez**
+**Camilo Ibáñez, usuario lejano 1**
+![persona1](https://github.com/Duzacs/Dusanivelic.cl/assets/141802434/2f2a642a-0106-4c7f-89de-51f7d0231e64)
 
 
-42 años
-
-Dueño de un negocio de comida rápida
-
-Objetivo de vida
-
-Siempre le ha encantado cocinar y ver las sonrisas de sus clientes. Es por eso que desea crearles la mejor experiencia posible y mejorar el día de quienes los visiten.
-
-Motivaciones
-
-Desea crear una experiencia de calidad para sus clientes y mantenerse estable económicamente. Es por ello que siempre busca sorprender y atraer la atención del resto.
-
-Frustraciones
-
-No siempre le atina a lo que el cliente le gusta, y por ello a veces los espanta en vez de atraerlos. Necesita que alguien le ayude a crear experiencias acordes a lo que ellos, sus clientes, necesitan. 
-
-Acceso al sitio web
-
-Camilo estaba buscando diseñadores que pudieran ayudarlo, y un amigo suyo le recomendó el dato de uno llamado Dusan Ivelic. Es por esto que se dispone a buscar el nombre en Google y se encuentra con un sitio web dedicado al trabajo de éste.
-
-**María Prado**
-
-
-45 años
-
-Directora de una escuela pública ubicada en Providencia.
-
-Objetivo de vida
-
-A María nada le importa más que la correcta docencia de los niños. Es por esto que trabaja con mucha pasión para crear aprendizajes de calidad.
-
-Motivaciones
-
-Desea contribuir a la educación de su comuna y ayudar a culturizar el país. Disfruta ver a estudiantes ingresar a la universidad o convertirse en casos de éxito. 
-
-Frustraciones
-
-Frente a una competencia muy alta por parte de otras escuelas, Maria necesita destacarse y promocionar su escuela, pero no sabe cómo. Conoce estrategias de Marketing y es muy elocuente al hablar, pero lo sabe todo, y necesita ayuda para transmitir su mensaje al mundo.
-
-Acceso al sitio web
-
-Maria buscaba una forma de promocionar su escuela, y conversando con otros expertos en el área, decide buscar un diseñador que la ayude con un portal web que le ayude a promocionarse y crear nuevas experiencias para los estudiantes. Con eso en mente, busca en Internet y en sus resultados aparecen una lista con varios sitios web, entre los que se encontraba dusanivelic.cl. 
+**María Prado, usuario lejano 2**
+![persona2](https://github.com/Duzacs/Dusanivelic.cl/assets/141802434/77f66bb1-5904-4429-9240-f577749597da)
 
 
 
