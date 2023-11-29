@@ -1,0 +1,12 @@
+            section {
+                scroll-margin-top: 50px;
+            }
+
+            #foto {
+                background: transparent url("https://shorturl.at/nAE24") 0 0 no-repeat;
+                background-size: cover;
+            }
+            footer{
+                background: black;
+            }
+
