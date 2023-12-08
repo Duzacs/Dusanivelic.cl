@@ -1,0 +1,59 @@
+[
+    {
+        "nombre": "Dulces a la Vista",
+        "fotos": ["https://raw.githubusercontent.com/Duzacs/DNM_12/main/img/dulces_1.webp", "https://raw.githubusercontent.com/Duzacs/DNM_12/main/img/dulces_2.webp", "https://raw.githubusercontent.com/Duzacs/DNM_12/main/img/dulces_3.webp"],
+        "soporte": "servicios", "experiencia": "diseño web",
+        "abstract": "Proyecto de intervención en La Ligua",
+        "texto": "Programa de intervención para los productores de dulces en la Ligua. Realizado en conjunto con INAPI, el énfasis está en visibilizar las casas de elaboración de dulces. Busca aumentar el valor de la indicación geográfica, en conjunto con el sello, así como impulsar el turismo. Para ello se diseñó un portal web que permite a sus usuarios integrarse al programa, así como un folleto físico imprimible. Se realizó en conjunto con Pilar Quinteros, Isidora Gómez, Fernanda Rozas y Emil Gatica a mediados del año 2023."
+    },
+    {
+        "nombre": "Ekin",
+        "fotos": ["https://raw.githubusercontent.com/Duzacs/DNM_12/main/img/ekin_1.webp", "https://raw.githubusercontent.com/Duzacs/DNM_12/main/img/ekin_2.webp", "https://raw.githubusercontent.com/Duzacs/DNM_12/main/img/ekin_3.webp"],
+        "soporte": "industrial",
+        "abstract": "Juguete armable de escenarios de juego",
+        "texto": "Realizado durante el año 2022 en conjunto con Constanza Velásquez y Javiera Corona, Ekin es un juguete que busca que los niños se transporten al espacio exterior al jugar, creando su propio planeta con piezas adoptadas a una temática espacial fantástica. El niño o niña podrá interactuar sintiéndose completamente libre y en control de su espacio de juego al crear su propia “cancha”, y con la capacidad de crear una infinidad de mundos espaciales. Todas las piezas de Ekin fueron creadas con el biomaterial biofoam, compuesto de gelatina, agua, glicerina, shampoo orgánico y desechos orgánicos de frutas. Este material ayuda a provocar una sensación de estar jugando en un mundo extraño y desconocido."
+    },
+    {
+        "nombre": "El color como esencia del alma",
+        "fotos": ["https://raw.githubusercontent.com/Duzacs/DNM_12/main/img/el_color_1.webp", "https://raw.githubusercontent.com/Duzacs/DNM_12/main/img/el_color_2.webp", "https://raw.githubusercontent.com/Duzacs/DNM_12/main/img/el_color_3.webp"],
+        "soporte": "editorial",
+        "abstract": "Composición de doble página a manera de revista",
+        "texto": "Realizado en 2022, es una composición diseñada en formato revista que trata de una exhibición llamada “Espíritu y materia del color en el arte virreinal surandino” que se realizó en el campus central de la Pontificia Universidad Católica de Chile ese mismo año. “Las clásicas obras del arte virreinal surandino fueron realizadas con un uso restringido del color, y sin embargo, nos permiten comprender las emociones que los artistas querían expresar, como si el alma de los personajes representados se nos hiciera visible y tangible por unos instantes. Las fotografías aquí tomadas son un ejemplo claro de ello, pues através de paletas cromáticas limitadas, los artistas fueron capaces de transmitir historias, personalidades, emociones, y fundamentalmente, almas”."
+    },
+    {
+        "nombre": "Aguas Maule",
+        "fotos": ["https://raw.githubusercontent.com/Duzacs/DNM_12/main/img/aguas_maule_1.webp", "https://raw.githubusercontent.com/Duzacs/DNM_12/main/img/aguas_maule_2.webp", "https://raw.githubusercontent.com/Duzacs/DNM_12/main/img/aguas_maule_3.png"],
+        "soporte": "servicios",
+        "abstract": "Proyecto de eficiencia hídrica",
+        "texto": "Dentro de un equipo de diseño de la Pontificia Universidad Católica trabajamos en conjunto a líderes territoriales de la Región del Maule gracias a una alianza junto a Balloon Latam con tres objetivos: conseguir más agua, informar a la comunidad y manejar la eficiencia de consumo. Para esto, se realizó un sistema de información que involucra un portal web y herramientas enfocadas en la escasez hídrica, que permitan reunir y compartir conocimientos entre la propia comunidad. Aguas Maule recopila información sobre proyectos de captación de agua lluvia, reutilización de aguas grises, comentarios de la comunidad y contactos de organizaciones. Las personas también podrán informarse sobre la problemática del agua en el Maule en el portal y revisar los proyectos y hábitos recomendados."
+    },
+    {
+        "nombre": "Pa'mih",
+        "fotos": ["https://raw.githubusercontent.com/Duzacs/DNM_12/main/img/pamih_1.jpg", "https://raw.githubusercontent.com/Duzacs/DNM_12/main/img/pamih_2.webp", "https://raw.githubusercontent.com/Duzacs/DNM_12/main/img/pamih_3.webp"],
+        "soporte": "experiencia",
+        "abstract": "Aplicación de compra y venta de muebles",
+        "texto": "Pa’mih nació en 2022 como un trabajo en conjunto con Catalina Gracia y Maria Josefa Sanchez. Consiste en una aplicación al estilo market-place que permite a sus usuarios la compra y venta de muebles que estén en desuso. El servicio que entrega Pa’mih no se limita solo a permitir a sus usuarios hacer intercambios monetarios, sino que tiene un foco en la facilitación del transporte y publicación de esta clase de objetos. En Pa’mih puedes poner muebles como regalo que luego el equipo transportaría y arreglaría en un taller de herramientas en caso de ser necesario."
+    },
+    {
+        "nombre": "Cuchuflis Encantados",
+        "fotos": ["https://raw.githubusercontent.com/Duzacs/DNM_12/main/img/cuchuflis_encantados_1.jpg", " https://raw.githubusercontent.com/Duzacs/DNM_12/main/img/cuchuflis_encantados_2.webp ", " https://raw.githubusercontent.com/Duzacs/DNM_12/main/img/cuchuflis_encantados_3.webp"],
+        "soporte": "industrial",
+        "abstract": "Dulces hechizados hechos de masa rellena de manjar",
+        "texto": "Los cuchuflis encantados de marca Kadabra surgen de la idea de brindar una experiencia lúdica e infantil, inspirados en los valores de nuestra marca madre: Safari, quienes diseñan coloridas prendas de vestuario pensando en que los niños y niñas corran, sean ellos mismos, y se entretengan al usar sus productos. Movidos por estos valores, en conjunto de Constanza Velásquez y Javiera Corona desarrollamos una marca propia (Kadabra) y un producto de cuchuflis para niños, rediseñando la forma del cuchufli, la interacción de consumo (considerandolo como alimento de la calle), y relatando una fantasiosa historia sobre un cuchuflero hechicero que encantó cuchuflis para que dieran super poderes a los niños que los comiesen."
+    },
+    {
+        "nombre": "WowGuau",
+        "fotos": ["https://raw.githubusercontent.com/Duzacs/DNM_12/main/img/wowguau_1.webp", "https://raw.githubusercontent.com/Duzacs/DNM_12/main/img/wowguau_2.jpg", "https://raw.githubusercontent.com/Duzacs/DNM_12/main/img/wowguau_3.webp"],
+        "soporte": "servicios",
+        "abstract": "Diseño de identidad gráfica y servicio de emprendimiento",
+        "texto": "WowGuau es un emprendimiento personal que comenzó a funcionar alrededor del año 2020 como un servicio de paseo de perros que creció y se constituyó como una marca con varios clientes y presencia en las redes sociales. Con el propósito de crear experiencias dignas para mascotas y una atención de calidad a los clientes, se construyó una identidad de marca y un formato de servicio que permitiese a WowGuau crecer como un emprendimiento capaz de lidiar con diversos puntos críticos que implican un paseo. El trabajo se centró en su presencia en redes sociales, creando y diseñando contenido, además de crear diversos planes de servicio."
+    },
+    {
+        "nombre": "BioTech",
+        "fotos": ["https://raw.githubusercontent.com/Duzacs/DNM_12/main/img/biotech_1.webp", "https://raw.githubusercontent.com/Duzacs/DNM_12/main/img/biotech_2.webp", "https://raw.githubusercontent.com/Duzacs/DNM_12/main/img/biotech_3.jpg"],
+        "soporte": "branding",
+        "abstract": "Diseño de identidad de compañía tecnológica",
+        "texto": "Este proyecto ficticio realizado en 2021 se centró en el diseño de un logotipo tipográfico para la marca Biotech. Biotech es una compañía tecnológica internacional que dedica sus recursos a desarrollos científicos punteros, pero no quiere se la relacione con química contaminante. Es una empresa profesional de altos estándares, que transmite confianza, seriedad, transparencia y naturaleza. Evita a toda costa ser lúdica o informal. De esta forma, se escogió la tipografía Roboto Slab Serif, la cual según sus mismos creadores se define como: Tiene una naturaleza dual. Posee un esqueleto mecánico y las formas son en gran parte geométricas."
+    }
+
+]
