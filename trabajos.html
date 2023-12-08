@@ -26,25 +26,10 @@
 
 <!-- Meta Tags Generated with https://metatags.io -->
 
+    <link rel="stylesheet" href="style.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="style.css"></noscript>
+    <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
 
-        <!--estilo CSS al que puede conmplementar o contradecir-->
-        <style>
-            section {
-                scroll-margin-top: 50px;
-                position: relative;
-                padding-top: 60px;
-            }
-            nav {
-                backdrop-filter: blur(0.5rem);
-            }
-            #foto {
-                background: transparent url("https://shorturl.at/nAE24") 0 0 no-repeat;
-                background-size: cover;
-            }
-            footer{
-                background: #324661;
-            }
-        </style>
 
 </head>
 
@@ -60,7 +45,7 @@
                 <div class="collapse navbar-collapse" id="navbarMenu">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item"><a class="nav-link" href="trabajos.html">Trabajos</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#losTrabajos">Contacto</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
                     </ul>
                 </div>
             </div>
@@ -81,70 +66,76 @@
                             <!-- Aquí se mostrarán los detalles del trabajo -->
                             <div id="trabajo-details">
                                 <!-- Los detalles del trabajo se llenarán con JavaScript -->
-                                </div>
-                                </div>
-                                <div class="modal-footer">
+                            </div>
+                        </div>
+                        <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                                </div>
+                        </div>
                             </div>
                         </div>
                     </div>
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4" id="trabajos"></div>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 g-4" id="trabajos"></div>
             </div>
         </section>
 
         <!-- Lo que sigue es JavaScript a secas-->
-        <script>
+            <script>
+        const donde = document.querySelector("#trabajos");
+
         async function portfolio() {
-        const consulta = await fetch("https://raw.githubusercontent.com/Duzacs/DNM_12/main/datos.json");
-        const data = await consulta.json();
-        var donde = document.querySelector("#trabajos");
+            const consulta = await fetch("https://raw.githubusercontent.com/Duzacs/Dusanivelic.cl/main/datos.json");
+            const data = await consulta.json();
 
-        data.forEach(function (t, i) {
-          donde.innerHTML += `<article class="col"><div class="card h-100 shadow-sm ${t.soporte}">
-          <img src="${t.fotos[0]}" class="card-img-top">
-          <div class="card-body">
-            <h3 class="fs-5">
-              <a href="javascript:void(0);" class="link-secondary" data-bs-toggle="modal" data-bs-target="#elModal" data-trabajo="${i}">${t.nombre}</a>
-            </h3>
-            <p>${t.abstract}</p>
-            <small>#${t.soporte}</small>
-          </div>
-          </div></article>`;
-        });
+            data.forEach((t, i) => {
+                donde.innerHTML += `
+                    <article class="col">
+                        <div class="card h-100 shadow-sm" onclick="abrirModal(${i})">
+                            <img src="${t.fotos[0]}" class="card-img-top" alt="${t.nombre}" data-bs-toggle="modal" data-bs-target="#portfolioModal${i}" style = "cursor: pointer">
+                            <div class="card-body">
+                                <h3 class="fs-5"><a data-bs-toggle="modal" href="#portfolioModal${i}" class="link-secondary">${t.nombre}</a></h3>
+                                <p>${t.abstract}</p>
+                                <small>${t.soporte}</small>
+                            </div>
+                        </div>
+                    </article>
+                    <div class="modal fade" id="portfolioModal${i}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <!-- Contenido del modal -->
+                                <div class="modal-header">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <h2 class="text-uppercase" style = "font-weight: 600">${t.nombre}</h2>
+                                    <p>${t.abstract}</p>
+                                    <p>${t.texto}</p>
+                                    <p class="small text-body-secondary">#${t.soporte}</p>
+                                    ${fotos(t.fotos)}
+                                </div>
+                                <div class="modal-footer">
+                                    <small>Dusan Ivelic © 2023</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>`;
+            });
 
-        document.querySelectorAll('[data-bs-toggle="modal"]').forEach((element) => {
-          element.addEventListener("click", (event) => {
-          const trabajoId = parseInt(event.target.getAttribute("data-trabajo"));
-          mostrarDetallesDelTrabajo(trabajoId);
-        });
-    });
-  }
-  portfolio().catch((error) => console.error(error));
+            function fotos(arreglo) {
+                var todas = "";
+                arreglo.forEach((x) => (todas = todas + `<img class="w-100 d-block mb-4" src="${x}"/>`));
+                return todas;
+            }
+        }
 
-        function mostrarDetallesDelTrabajo(trabajoId) {
-        fetch("https://raw.githubusercontent.com/Duzacs/DNM_12/main/datos.json")
-        .then((response) => response.json())
-        .then((data) => {
+        function abrirModal(index) {
+            const modalId = `#portfolioModal${index}`;
+            const myModal = new bootstrap.Modal(document.querySelector(modalId));
+            myModal.show();
+        }
 
-        const trabajo = data[trabajoId];
-
-        const modalContent = document.getElementById("trabajo-details");
-        modalContent.innerHTML = `
-          <h2 class="fs-1">${trabajo.nombre}</h2>
-          <p>${trabajo.texto}</p>
-          <small>#${trabajo.soporte}</small>
-          <div class="row">
-            ${trabajo.fotos
-            .map((foto) => `<div class="col"><img src="${foto}" class="w-100 rounded shadow-sm"></div>`)
-              .join("")}
-          </div>`;
-
-        $('#elModal').modal('show');
-      })
-      .catch((error) => console.error(error));
-  }
-        </script>
+        portfolio().catch((error) => console.error(error));
+    </script>
+   
          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
         </script>
 

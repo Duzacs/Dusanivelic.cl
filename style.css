@@ -1,5 +1,11 @@
             section {
                 scroll-margin-top: 50px;
+                position: relative;
+                padding-top: 60px;
+            }
+            
+            nav {
+                backdrop-filter: blur(0.5rem);
             }
 
             #foto {
@@ -8,5 +14,59 @@
             }
             footer{
                 background: black;
+                margin-top: auto;
             }
 
+            html, body {
+                font-family: 'Rubik', sans-serif;
+                min-height: 100vh;
+                display: flex;
+                flex-direction: column;
+            }
+
+            #container trabajos {
+                position: relative;
+                top: 500px;
+                top: 60px;
+            }
+
+            .cta {
+                background-color: #EC9511;
+                color: white;
+                padding: 10px 30px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                border-radius: 50px;
+                font-size: 14px;
+                border: none;
+                font-weight: 600;
+                letter-spacing: 1px;
+            }
+
+            .cta:hover {
+            background-color: white; /* Green */
+            color: #EC9511;
+            border: 2px solid #EC9511; /* Green */
+            }
+
+            .button {
+                background-color: black;
+                color: white;
+                padding: 10px 30px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                border-radius: 50px;
+                font-size: 14px;
+                border: none;
+                font-weight: 600;
+                letter-spacing: 1px;
+                border: 2px solid black;
+            }
+
+            .button:hover {
+            background-color: white; 
+            color: black;
+            border: 2px solid black;
+            }
