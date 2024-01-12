@@ -10,15 +10,15 @@
 
             @media (max-width: 767px) {
                 #encabezado-container {
-                    padding-top: 70px; /* O ajusta la cantidad según sea necesario para evitar la superposición */
+                    padding-top: 120px; /* O ajusta la cantidad según sea necesario para evitar la superposición */
                 }
             }
 
-@media (max-width: 767px) {
-    #lasEspecialidades {
-        margin-top: 110px; /* O ajusta la cantidad según sea necesario para evitar la superposición */
-    }
-}
+            @media (max-width: 767px) {
+                #lasEspecialidades {
+                    margin-top: 150px; /* O ajusta la cantidad según sea necesario para evitar la superposición */
+                }
+            }
 
 
             #foto {
