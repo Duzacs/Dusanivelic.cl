@@ -5,6 +5,8 @@
             }
             
             nav {
+
+                -webkit-backdrop-filter: blur(0.5rem);
                 backdrop-filter: blur(0.5rem);
             }
 
@@ -31,7 +33,7 @@
             }
 
             html, body {
-                font-family: 'Rubik', sans-serif;
+                font-family: 'Rubik','Helvatica', sans-serif;
                 min-height: 100vh;
                 display: flex;
                 flex-direction: column;
